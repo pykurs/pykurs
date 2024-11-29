@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primer Sajta</title>
+  <style>
+    /* Primena efekta zasenčenja i zamućenja na pozadinsku sliku */
+    body {
+      /* Korišćenje srednje sive boje za pozadinu, kao "gray" (#808080) */
+      background-color: #808080; /* Podrazumevana siva boja pozadine */
+      background-image: url('out-1.png'); /* Postavite putanju do slike */
+      background-size: cover; /* Pokriva celu pozadinu */
+      background-position: center; /* Pozicija pozadine */
+      height: 100vh; /* Pozadina pokriva celu visinu ekrana */
+      margin: 0; /* Uklanjanje margina sa tela */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white; /* Bele boje teksta za kontrast sa pozadinom */
+      filter: brightness(70%); /* Zasjenjenje slike (smanjenje svetlosti) */
+      backdrop-filter: blur(8px); /* Blur efekat za pozadinu (ako želite zamućenje) */
+    }
+
+    h1, p {
+      margin: 10px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Dobrodošli!</h1>
+  <p>Ovo je ETF kurs.</p>
+  <p>Ovo je link za sve druge fakultete.</p>
+</body>
+</html>
