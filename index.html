@@ -21,20 +21,25 @@
       color: white; /* Bele boje teksta za kontrast sa pozadinom */
       filter: brightness(70%); /* Zasjenjenje slike (smanjenje svetlosti) */
       backdrop-filter: blur(8px); /* Blur efekat za pozadinu (ako želite zamućenje) */
+      }
+
+    h1 {
+      margin-bottom: 20px; /* Razdvojeno sa p elementom sa 20px */
+    }
+
+    p {
+      margin-top: 20px; /* Dodatni prostor iznad p elementa */
+      font-size: 18px;
+      text-align: center;
     }
 
         a {
       text-decoration: none;  /* Uklanja podvlačenje */
-      color: inherit;         /* Preuzima boju roditeljskog teksta */
+      color: #ff5733;         /* Preuzima boju roditeljskog teksta ako #ff.. zamenimo sa inherit */
     }
 
     a:hover {
       color: #ff5733;         /* Menja boju na hover */
-    }
-    
-    h1, p {
-      margin: 10px;
-      text-align: center;
     }
 
   </style>
